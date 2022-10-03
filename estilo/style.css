@@ -37,22 +37,25 @@ html, body {
     font-family: var(--font1);
 }
 
-header {
-    width: 768px;
-    height: 900px;
+/*img#dj01 {
+    width: 100px;
+    height: 500px;
     background-image: url(../Imagens/pexels-yan-krukov-9005454.jpg);
-    display: inline-block;
+    background-size: cover;
+    display: block;
     transform: translateX(-100px);
-}
+}*/
 
-header > h1 {
+header {
+    background-color: black;
+    height: 100px;
     padding-top: 50px;
     font-variant: small-caps;
     font-family: 'Valorant';
     font-size: 8vw;
     color: white;
     text-align: center;
-    text-shadow: 5px 10px 7px rgba(0, 0, 0, 0.767);
+    text-shadow: 5px 10px 7px rgba(255, 255, 255, 0.767);
 }
 
 header > p {
@@ -121,17 +124,12 @@ section#img02 {
     height: 300px;
 }
 
-section#redes-sociais {
-    text-align: left;
-}
-
 section#redes-sociais img {
-    width: 50px;
-    margin: 10px;
+    width: 40px;
+    margin: 5px;
     border-radius: 50%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.596);
-    box-sizing: border-box;
-    display: block;
+    background-size: cover;
 }
 
 section#redes-sociais img:hover {
