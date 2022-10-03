@@ -9,6 +9,16 @@
     src: url(Valorant\ Font.ttf);
 }
 
+/*--------------------------
+Typical device breakpoints
+--------------------------
+Pequenas telas : até 600px
+celular : de 600px até 768px
+Tablet : 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
 :root {
     --font1: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --font2: 'Passion One', cursive;
@@ -28,11 +38,11 @@ html, body {
 }
 
 header {
-    background-image: url(../Imagens/pexels-yan-krukov-9005454.jpg);
-    background-size: cover;
-    color: white;
-    text-align: center;
+    width: 768px;
     height: 900px;
+    background-image: url(../Imagens/pexels-yan-krukov-9005454.jpg);
+    display: inline-block;
+    transform: translateX(-100px);
 }
 
 header > h1 {
@@ -40,6 +50,9 @@ header > h1 {
     font-variant: small-caps;
     font-family: 'Valorant';
     font-size: 8vw;
+    color: white;
+    text-align: center;
+    text-shadow: 5px 10px 7px rgba(0, 0, 0, 0.767);
 }
 
 header > p {
