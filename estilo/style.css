@@ -113,13 +113,13 @@ section.imagen > p {
 }
 
 section#img01 {
-    background-image: url('../imagens/background01.jpg');
+   /* background-image: url('../imagens/background01.jpg');*/
     background-position: center right;
     height: 300px;
 }
 
 section#img02 {
-    background-image: url('../imagens/background02.jpg');
+  /*  background-image: url('../imagens/background02.jpg');*/
     background-position: center right;
     height: 300px;
 }
