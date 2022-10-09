@@ -22,7 +22,7 @@ Grandes telas: acima de 1200px
 :root {
     --font1: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --font2: 'Passion One', cursive;
-    --font3: 'Sriracha', cursive;
+    --font3: 'Arial Narrow', Arial, sans-serif ;
 }
 
 * {
@@ -34,7 +34,7 @@ Grandes telas: acima de 1200px
 html, body {
     min-height: 100vh;
     background-color: darkgray;
-    font-family: var(--font1);
+    font-family: var(--font3);
 }
 
 /*img#dj01 {
@@ -47,12 +47,17 @@ html, body {
 }*/
 
 header {
-    background-color: black;
-    height: 100px;
+    background: url(../Imagens/pexels-yan-krukov-9005454.jpg);
+    height: 400px;
     padding-top: 50px;
     font-variant: small-caps;
     font-family: 'Valorant';
     font-size: 8vw;
+}
+
+header > h1 {
+    font-size: 1.3em;
+    margin-top: 130px;
     color: white;
     text-align: center;
     text-shadow: 5px 10px 7px rgba(255, 255, 255, 0.767);
