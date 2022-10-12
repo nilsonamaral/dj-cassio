@@ -95,6 +95,18 @@ section.normal {
     color: black;
 }
 
+div#som {
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.445);
+    position: absolute;
+    transform: translate(10px , 10px);
+}
+
+div#luz {
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.493);
+}
+
 section.imagen {
     background-color: rgb(138, 138, 138);
     color: white;
@@ -120,13 +132,13 @@ section.imagen > p {
 }
 
 section#img01 {
-    background-image: url('./imagens/background01.jpg');
+    background-image: url('../imagens/background01.jpg');
     background-position: center right;
     height: 300px;
 }
 
 section#img02 {
-    background-image: url('./imagens/background02.jpg');
+    background-image: url('../imagens/background02.jpg');
     background-position: center right;
     height: 300px;
 }
@@ -136,7 +148,20 @@ section#redes-sociais img {
     margin: 5px;
     border-radius: 50%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.596);
-    background-size: cover;
+    background-size: auto;
+    position: fixed;
+}
+
+section#redes-sociais > p#facebook {
+    transform: translate(50px, -100px);
+}
+
+section#redes-sociais > p#instagram {
+    transform: translate(530px, -350px);
+}
+
+section#redes-sociais > p#whatsapp {
+    transform: translate(1000px, -510px);
 }
 
 section#redes-sociais img:hover {
