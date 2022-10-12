@@ -48,6 +48,8 @@ html, body {
 
 header {
     background: url(../Imagens/pexels-yan-krukov-9005454.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 400px;
     padding-top: 50px;
     font-variant: small-caps;
@@ -118,13 +120,13 @@ section.imagen > p {
 }
 
 section#img01 {
-    background-image: url('../imagens/background01.jpg');
+    background-image: url('./imagens/background01.jpg');
     background-position: center right;
     height: 300px;
 }
 
 section#img02 {
-    background-image: url('../imagens/background02.jpg');
+    background-image: url('./imagens/background02.jpg');
     background-position: center right;
     height: 300px;
 }
