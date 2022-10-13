@@ -34,7 +34,7 @@ Grandes telas: acima de 1200px
 html, body {
     min-height: 100vh;
     background-color: darkgray;
-    font-family: var(--font3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*img#dj01 {
@@ -50,125 +50,36 @@ header {
     background: url(../Imagens/pexels-yan-krukov-9005454.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
-    padding-top: 50px;
+    position: absolute;
+    height: 200px;
+    width: 530px;
     font-variant: small-caps;
     font-family: 'Valorant';
     font-size: 8vw;
 }
 
 header > h1 {
-    font-size: 1.3em;
+    position: absolute;
+    transform: translate(20%, -130%);
+    font-size: 1.6em;
     margin-top: 130px;
     color: white;
     text-align: center;
-    text-shadow: 5px 10px 7px rgba(255, 255, 255, 0.767);
+    text-shadow: 5px 5px 7px rgba(255, 255, 255, 0.767), 3px 0 2px black;
 }
 
-header > p {
-    padding-bottom: 50px;
-    font-size: 2vw;
+section.intro {
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 520px;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-    font-weight: bolder;
-    
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 1.5em;
-    padding-left: 50px;
-    font-family: var(--font3);
-    font-size: 3.5vw;
-}
-
-section.normal {
-    background-color: white;
-    color: black;
-}
-
-div#som {
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.445);
-    position: absolute;
-    transform: translate(10px , 10px);
-}
-
-div#luz {
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.493);
-}
-
-section.imagen {
-    background-color: rgb(138, 138, 138);
-    color: white;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.603);
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-section > p {
-    padding-bottom: 2em;
-}
-
-section.imagen > p#p01 {
-    background-color: rgba(0, 0, 0, 0.247);
-}
-
-section.imagen > p {
-    background-color: rgba(0, 0, 0, 0.322);
-    display: inline-block;
-    padding: 10px;
-    text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.425);
-    border-radius: 15px 15px;
-}
-
-section#img01 {
-    background-image: url('../imagens/background01.jpg');
-    background-position: center right;
-    height: 300px;
-}
-
-section#img02 {
-    background-image: url('../imagens/background02.jpg');
-    background-position: center right;
-    height: 300px;
-}
-
-section#redes-sociais img {
-    width: 40px;
-    margin: 5px;
-    border-radius: 50%;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.596);
-    background-size: auto;
-    position: fixed;
-}
-
-section#redes-sociais > p#facebook {
-    transform: translate(50px, -100px);
-}
-
-section#redes-sociais > p#instagram {
-    transform: translate(530px, -350px);
-}
-
-section#redes-sociais > p#whatsapp {
-    transform: translate(1000px, -510px);
-}
-
-section#redes-sociais img:hover {
-    border: 2px solid white;
-    transform: translate(-6px, -6px);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.596);
-    transition: transform .6s;
+section.intro > p {
+    color: rgb(46, 46, 46);
+    font-size: 24px;
+    text-align: center;
+    padding: 230px 72px 3px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.521);
 }
 
 footer {
