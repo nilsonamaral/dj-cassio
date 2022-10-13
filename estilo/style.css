@@ -82,6 +82,31 @@ section.intro > p {
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.521);
 }
 
+a.face {
+    width: 15px;
+}
+
+.face {
+    height: 20px;
+    color: black;
+    font-size: 10px;
+    font-weight: 600;
+    width: 20px;
+}
+
+.img01 {
+    background-image: url(../Imagens/background01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 550px;
+    background-position: right bottom;
+}
+
+
+
+
+
 footer {
     background-color: black;
     color: white;
